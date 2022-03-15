@@ -1,6 +1,7 @@
 
 '''
 Shallow Network Approximation Challenge
+
 change the 'train_network' function to get a better approximation
 
 read more at https://github.com/sukiboo/nn_approximation_challenge
@@ -20,7 +21,8 @@ def train_network(x_train, y_train):
     '''create and train shallow network'''
 
     # create shallow network
-    model = tf.keras.Sequential([tf.keras.layers.Dense(10000, activation='relu'),
+    model = tf.keras.Sequential([tf.keras.Input(shape=(1,)),
+                                 tf.keras.layers.Dense(10000, activation='relu'),
                                  tf.keras.layers.Dense(1, activation=None)])
 
     # select optimization algorithm
