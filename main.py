@@ -22,7 +22,7 @@ def train_network(x_train, y_train):
 
     # create shallow network
     model = tf.keras.Sequential([tf.keras.Input(shape=(1,)),
-                                 tf.keras.layers.Dense(10000, activation='relu'),
+                                 tf.keras.layers.Dense(100, activation='relu'),
                                  tf.keras.layers.Dense(1, activation=None)])
 
     # select optimization algorithm
@@ -30,7 +30,7 @@ def train_network(x_train, y_train):
 
     # compile and train the model
     model.compile(optimizer=optimizer, loss='mean_squared_error')
-    model.fit(x_train, y_train, epochs=100000)
+    model.fit(x_train, y_train, epochs=10000)
 
     return model
 
