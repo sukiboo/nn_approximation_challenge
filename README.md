@@ -18,3 +18,10 @@ The reasons for the poor performance provided by conventional methods lies in th
 If you're interested in the underlying justification, reach out to me and I'll tell you what I think (*though I might be wrong*)!
 
 ![This is what a conventional approach typically provides](https://user-images.githubusercontent.com/38059493/158447963-f679f9a4-a061-4ea5-825a-661b201f3f97.png)
+
+## References
+Here are some papers that discuss this phenomenon in more details:
+- [Deep ReLU Networks Have Surprisingly Few Activation Patterns](https://arxiv.org/abs/1906.00904)
+- [The gap between theory and practice in function approximation with deep neural networks](https://arxiv.org/abs/2001.07523)
+- [Training ReLU networks to high uniform accuracy is intractable](https://arxiv.org/abs/2205.13531)
+- [Greedy Shallow Networks: An Approach for Constructing and Training Neural Networks](https://arxiv.org/abs/1905.10409)
